@@ -1,0 +1,4 @@
+SELECT c.name
+    FROM COUNTRY AS cn
+JOIN CITY AS c ON cn.CODE = c.COUNTRYCODE
+WHERE cn.CONTINENT = "Africa";
